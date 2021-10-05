@@ -1,0 +1,26 @@
+GRSI Submission
+
+Title: The Design Space of Plane Elastic Curves
+Authors: Christian Hafner, Bernd Bickel
+OS: Windows 10
+
+
+Dependencies:
+ - Matlab (tested on version 2021a)
+ - Gurobi (tested on version 8)
+
+ 
+Setup Instructions:
+ - After installing Matlab and Gurobi, execute the script 'gurobi_setup.m', located in the directory '[gurobi-directory]/win64/matlab' from within Matlab. This will give Matlab access to the Gurobi interface.
+ - Execute the command 'savepath' from within Matlab, so Gurobi remains accessible even after Matlab is closed and reopened.
+
+ 
+Figure Generation Script:
+ - Within Matlab, navigate to the folder '[elastic-rods-repository]/matlab' and run the script 'script_master.m'. The script will take approximately 80 seconds to run.
+ 
+ 
+Reproduction of Results:
+ - The script will produce a total of 37 Matlab figures, reproducing most of the results-related figures shown in the publication. Each Matlab figure can be matched to the figure/demo in the publication via its title.
+ - Figs. 6-10, 15, 17-20, 22 are reproduced. In some cases, the figures have been lightly edited for publication, such as color changes, reordering, scaling, pruning.
+ - In addition, renderings of the simulation outcome underlying the physical models from Fig. 1 (left), and Fig. 24 (top right) are shown, as well as fabrication plans for the models "Pavilion", "Horse", "Shell", "Flower Pot", as discussed in Section 9. 
+ 
