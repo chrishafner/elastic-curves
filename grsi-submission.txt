@@ -11,12 +11,14 @@ Dependencies:
 
  
 Setup Instructions:
- - After installing Matlab and Gurobi, execute the script 'gurobi_setup.m', located in the directory '[gurobi-directory]/win64/matlab' from within Matlab. This will give Matlab access to the Gurobi interface.
+ - Install Matlab.
+ - Install Gurobi to 'C:/gurobi/'.
+ - After installing Matlab and Gurobi, execute the script 'gurobi_setup.m', located in the directory 'C:/gurobi/win64/matlab/' from within Matlab. This will give Matlab access to the Gurobi interface.
  - Execute the command 'savepath' from within Matlab, so Gurobi remains accessible even after Matlab is closed and reopened.
 
  
 Figure Generation Script:
- - Within Matlab, navigate to the folder '[elastic-curves-repository]/matlab' and run the script 'script_master.m'. The script will take approximately 80 seconds to run.
+ - Within Matlab, navigate to the folder '[repository]/matlab/' and run the script 'script_master.m'. The script will take approximately 80 seconds to run.
  
  
 Reproduction of Results:
