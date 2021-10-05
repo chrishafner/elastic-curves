@@ -16,7 +16,7 @@ Setup Instructions:
 
  
 Figure Generation Script:
- - Within Matlab, navigate to the folder '[elastic-rods-repository]/matlab' and run the script 'script_master.m'. The script will take approximately 80 seconds to run.
+ - Within Matlab, navigate to the folder '[elastic-curves-repository]/matlab' and run the script 'script_master.m'. The script will take approximately 80 seconds to run.
  
  
 Reproduction of Results:
